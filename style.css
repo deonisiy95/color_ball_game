@@ -1,0 +1,33 @@
+body {
+  font-family: "Signika";
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 300px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #b2ebf2;
+  border-radius: 10px;
+}
+
+#score {
+  color: #1976d2;
+  text-shadow: 1px 1px #42a5f5, 2px 2px #42a5f5, 3px 3px #42a5f5,
+    4px 4px #42a5f5;
+  font-weight: bold;
+  position: absolute;
+  right: 12px;
+  top: 6px;
+  font-size: 36px;
+  user-select: none;
+}
+
+#info {
+  position: absolute;
+  bottom: 12px;
+  font-size: 20px;
+  user-select: none;
+}
